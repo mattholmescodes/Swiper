@@ -45,5 +45,4 @@ body {
   inset: 0;                    
   background: #ccc center/cover no-repeat;
   z-index: 1;
-  pointer-events: none;
 }

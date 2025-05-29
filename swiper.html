@@ -23,8 +23,18 @@
            style="background-image:url('./Go.png')"
            href="https://github.com/mattholmescodes/Go-Local-North-Wales-Final"></a>
       </div>
+      <div class="swiper-slide">
+        <a class="slide-inner"
+           style="background-image:url('./Readability.jpg')"
+           href="https://github.com/mattholmescodes/Sentimental-Readability/"></a>
+      </div>
+      <div class="swiper-slide">
+        <a class="slide-inner"
+           style="background-image:url('./Fiftyville.jpg')"
+           href="https://github.com/mattholmescodes/CS50-Fiftyville/"></a>
+      </div>
     </div>
-  
+    <div class="swiper-pagination"></div>
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   </div>
@@ -37,12 +47,17 @@
     loop: false,
     initialSlide: 0,
     autoplay: {
-      delay: 2000,
+      delay: 4000,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
     },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    effect: 'cube',
   });
       </script>
 </body>
